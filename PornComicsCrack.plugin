@@ -1,5 +1,5 @@
-#!name=青年大学习
-#!desc=青年大学习
+#!name=欲漫涩
+#!desc=欲漫涩解锁会员漫画&视频
 [Script]
 http-response ^https?:\/\/.*\.com\/api\/app\/user\/info$ script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js, requires-body=true, timeout=10, tag=欲漫涩解锁会员漫画
 http-request ^https?:\/\/.*\.com\/api\/app\/media script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornVideosCrack.js, timeout=10, tag=欲漫涩解锁会员视频
