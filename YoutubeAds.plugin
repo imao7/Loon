@@ -1,5 +1,5 @@
 #!name=Youtube Block AD
-#!desc=仅用于视频广告，首页广告，播放页列表广告，不适用允许 UDP 转发的节点及 Premium
+#!desc=视频广告，首页广告，播放页列表广告，贴片广告, 不适用允许 UDP 转发的节点及 Premium
 [URL Rewrite]
 # ======= 视频广告 ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) 302 $1$2$3
