@@ -4,6 +4,8 @@
 # ======= 视频广告 ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) 302 $1$2$3
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad reject
+# ======= 贴片广告 ======= #
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube-player.js, requires-body=true, binary-body-mode=true, timeout=10, tag=youtube-player
 # ======= 通用请求 ======= #
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break reject
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads reject
