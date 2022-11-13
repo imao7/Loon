@@ -1,0 +1,9 @@
+#!name=Fileball
+#!desc=FileBall 解锁订阅
+#https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/fileball.js
+
+[Script]
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ script-path=https://raw.githubusercontent.com/imao7/Quan/master/Fileball.js, requires-body=true, timeout=10, tag=Fileball
+
+[MITM]
+hostname = api.revenuecat.com
