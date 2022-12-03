@@ -1,0 +1,8 @@
+#!name=documents文件管理器+解锁订阅
+#!desc=documents文件管理器+解锁订阅
+
+[Script]
+http-request ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js, requires-body=true, timeout=10, tag=documents
+
+[MITM]
+hostname = license.pdfexpert.com
