@@ -4,4 +4,4 @@
 ^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) reject-200
 ^https:\/\/vpic\.cms\.qq\.com\/nj_vpic reject-200
 [MITM]
-hostname = vip7.fzwdyy.cn
+hostname = vip7.fzwdyy.cn, vpic.cms.qq.com
