@@ -1,6 +1,7 @@
-#!name=555电影去广告
-#!desc=555电影去广告
+#!name=555去广告
+#!desc=555去广告
 [URL Rewrite]
-^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo reject-200
+^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) reject-200
+^https:\/\/vpic\.cms\.qq\.com\/nj_vpic reject-200
 [MITM]
 hostname = vip7.fzwdyy.cn
