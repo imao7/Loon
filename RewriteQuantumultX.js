@@ -263,8 +263,3 @@ function http(req) {
   })
 )
 }
-Google 翻译
-原文
-
-提供更好的翻译建议
-原
