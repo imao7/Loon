@@ -1,7 +1,7 @@
 #!name = 重写转换器
 #!desc = 将Quantumult X重写和Surge模块转换为Loon能识别的格式，仅支持来自GitHub的地址。
 #!author = 小白脸 chengkongyiban
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+#!homepage = https://t.me/h5683577
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Loon_rewrite_converter.png
 
 [Script]
