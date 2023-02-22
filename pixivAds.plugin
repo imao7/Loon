@@ -1,9 +1,9 @@
 #!name=Pixiv去广告
 #!desc=去除应用最下方广告
-
+[Rule]
+DOMAIN,oauth.secure.pixiv.net
 [Script]
 # ～ Pixiv去除广告（2022-12-03）@ddgksf2013
 http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) script-path=https://github.com/ddgksf2013/Scripts/raw/master/pixivAds.js, requires-body=true, timeout=10, tag=pixivAds
-
 [MITM]
 hostname = oauth.secure.pixiv.net
