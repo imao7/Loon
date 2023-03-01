@@ -5,9 +5,9 @@
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Loon_rewrite_converter.png
 
 [Script]
-http-request qx.Loon\?.*|qx.Loon$ script-path = https://raw.githubusercontent.com/imao7/Loon/master/RewriteQuantumultX.js, requires-body=true, tag = 转写Quantumult X重写, img-url = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Loon_rewrite_converter.png
+http-request qx\?.*|qx$ script-path = https://raw.githubusercontent.com/imao7/Loon/master/RewriteQuantumultX.js, requires-body=true, tag = 转写Quantumult X重写, img-url = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Loon_rewrite_converter.png
 
-http-request sg.Loon\?.*|sg.Loon$ script-path = https://raw.githubusercontent.com/imao7/Loon/master/RewriteSurge.js, requires-body=true, tag = 转写Surge模块, img-url = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Loon_rewrite_converter.png
+http-request sg\?.*|sg$ script-path = https://raw.githubusercontent.com/imao7/Loon/master/RewriteSurge.js, requires-body=true, tag = 转写Surge模块, img-url = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Loon_rewrite_converter.png
 
 http-request r_parser.list$|r_parser.list\?.* script-path = https://raw.githubusercontent.com/imao7/Loon/master/Rule_converter.js, requires-body=true, tag = 规则转换, img-url = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Loon_rewrite_converter.png
 
