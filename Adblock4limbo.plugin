@@ -1,3 +1,6 @@
+#!name=Adblock4limbo
+#!desc=Adblock4limbo
+#!icon=https://github.com/KeiKinn/StickerOnScreen/raw/main/Stickers/Sticker_1283.png
 [Rewrite]
 ^https?:\/\/18comic\.(org|vip)\/templates\/frontend\/airav\/js\/jquery.avs.*?\.js.* - reject
 # # ^https:\/\/cn\.pornhub\.com\/_xa\/ads.* - reject
