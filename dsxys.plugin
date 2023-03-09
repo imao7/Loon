@@ -1,0 +1,7 @@
+#!name=大师兄影视
+#!desc=去广告弹窗
+#!icon=https://github.com/KeiKinn/StickerOnScreen/raw/main/Stickers/Sticker_1062.png
+[Rewrite]
+^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/(dsx|xgapp)\.php\/v\d\/(top_notice\?|version|advert\?position=[^2]+) - reject-200
+[MITM]
+hostname = sdk.alibaba.com.ailbaba.me
