@@ -1,3 +1,7 @@
+[Rewrite]
+^https?:\/\/18comic\.(org|vip)\/templates\/frontend\/airav\/js\/jquery.avs.*?\.js.* - reject
+# # ^https:\/\/cn\.pornhub\.com\/_xa\/ads.* - reject
+^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads.* - reject
 [Script]
 # 禁漫天堂(18comic.org)
 http-response ^https?:\/\/(\w{0,3}(\.){0,1}(18comic)(\.)\w{0,3})(?!.*?(/(cdn-cgi|onclick)))(?!.*?(\.(css|js|jpeg|jpg|png|php|gif|ico|mp3|mp4|svg|tff|PNG|woff|woff2|m3u8))).* script-path=https://limbopro.com/Adguard/Adblock4limbo.js, requires-body=true, timeout=10, tag=禁漫天堂
