@@ -1,0 +1,9 @@
+#!name=涩涩视频去广告
+#!desc=https://files.yuchenglw.com/Index/lists?cat=55
+#!icon=https://github.com/KeiKinn/StickerOnScreen/raw/main/Stickers/Sticker_1284.png
+
+[Script]
+http-response ^https:\/\/files\.(yuchenglw|honghufly)\.com script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ghs/sssp.js, requires-body=true, timeout=60 ,tag=sssp_14
+
+[MITM]
+hostname = files.*.com
