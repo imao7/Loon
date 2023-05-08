@@ -1,5 +1,6 @@
 #!name=Pixiv去广告
 #!desc=去除应用最下方广告
+#!icon=https://img.moegirl.org.cn/common/c/cf/Pixiv_logo.png
 [Rule]
 DOMAIN, oauth.secure.pixiv.net, PROXY
 [Script]
