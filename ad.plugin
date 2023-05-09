@@ -1,0 +1,13 @@
+#!name = 去广告
+#!desc = 去广告
+[Rule]
+#虎牙直播开屏广告
+DOMAIN,pp-cdnfile2pcdn.msstatic.com,REJECT
+DOMAIN,livewebbs2pcdn.msstatic.com,REJECT
+DOMAIN,huyafile.msstatic.com,REJECT
+DOMAIN,livewebbs2.msstatic.com,REJECT
+DOMAIN,business.msstatic.com,REJECT
+# > HDOBOX去广告
+DOMAIN-SUFFIX,applovin.com,REJECT
+DOMAIN-SUFFIX,applvn.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
