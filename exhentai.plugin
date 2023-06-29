@@ -6,7 +6,7 @@
 
 [Script]
 
-http-request ^https:\/\/exhentai\.org\/ script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/replace-header/index.js, timeout=60, tag=exhentai.org, argument="Cookie->Cookie: sk=4v3t25umug43sdazvcfk5ckwiex3; sl=dm_1; igneous=696851a1c; yay=louder; ipb_pass_hash=3b021e50432810d9aa9f4722fb84ce5a; ipb_member_id=7323544"
+http-request ^https:\/\/exhentai\.org\/ script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/replace-header/index.js, timeout=60, tag=exhentai.org, argument="Cookie->Cookie: igneous=696851a1c; ipb_member_id=7323544; ipb_pass_hash=3b021e50432810d9aa9f4722fb84ce5a; yay=louder;
 
 [MITM]
 
